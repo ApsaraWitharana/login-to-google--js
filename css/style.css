@@ -1,0 +1,49 @@
+
+*{
+    background-color: black;
+    color: wheat;
+    margin: 0;
+    font-size: 35px;
+
+}
+.container{
+
+    border: 2px solid gray;
+    padding: 12px;
+    width: 600px;
+    height: 200px;
+    margin-top: 400px;
+    margin-right: 500px;
+    margin-bottom: 400px;
+    margin-left: 500px;
+    text-align: center;
+    align-items: center;
+    
+
+
+}
+
+#logout-btn{
+    border-radius: 10px;
+    background-color: gray;
+    margin: 20px ;
+}
+
+#login-btn{
+    border-radius: 10px;
+    background-color: gray;
+    margin: 20px;
+}
+
+#logout-btn:hover {
+   cursor: pointer;
+    background-color:red;
+    color: black;
+    
+}
+
+#login-btn:hover {
+    background-color: rgb(15, 115, 48);
+    color: black;
+    
+}
